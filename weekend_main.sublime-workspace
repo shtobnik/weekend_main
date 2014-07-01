@@ -4,6 +4,18 @@
 		"selected_items":
 		[
 			[
+				"marg",
+				"margin-top"
+			],
+			[
+				"text",
+				"text-transform"
+			],
+			[
+				"ba",
+				"background"
+			],
+			[
 				"drop",
 				"dropdown"
 			],
@@ -20,10 +32,6 @@
 				"log"
 			],
 			[
-				"text",
-				"text-transform"
-			],
-			[
 				"bac",
 				"background"
 			],
@@ -36,16 +44,8 @@
 				"margin-top"
 			],
 			[
-				"marg",
-				"margin"
-			],
-			[
 				"margi",
 				"margin-bottom"
-			],
-			[
-				"ba",
-				"background-repeat"
 			],
 			[
 				"wid",
@@ -120,37 +120,34 @@
 	"buffers":
 	[
 		{
-			"contents": "<!doctype html>\n<html class=\"no-js\" lang=\"en\">\n	<head>\n		<meta charset=\"utf-8\" />\n		<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n		<title>Foundation | Welcome</title>\n		<link rel=\"stylesheet\" href=\"css/foundation.css\" />\n		<script src=\"js/vendor/modernizr.js\"></script>\n		<script src=\"js/vendor/jquery.js\"></script>\n		<script src=\"js/vendor/fastclick.js\"></script>\n		<script src=\"js/foundation.min.js\"></script>\n	</head>\n	<body> \n\n\n\n\n\n\n\n\n		\n	<nav class=\"top-bar\" data-topbar> \n		<section class=\"top-bar-section\">       \n			<ul class=\"right\">\n				<li class=\"divider\"></li>\n				<li class=\"has-dropdown\">\n					<a href=\"#\">Main Item 1</a>\n					<ul class=\"dropdown\">\n						<li><label>Section Name</label></li>\n						<li class=\"has-dropdown\">\n							<a href=\"#\" class=\"\">Has Dropdown, Level 1</a>\n							<ul class=\"dropdown\">\n								<li><a href=\"#\">Dropdown Options</a></li>\n								<li><a href=\"#\">Dropdown Options</a></li>\n								<li><a href=\"#\">Level 2</a></li>\n								<li><a href=\"#\">Subdropdown Option</a></li>\n								<li><a href=\"#\">Subdropdown Option</a></li>\n								<li><a href=\"#\">Subdropdown Option</a></li>\n							</ul>\n						</li>\n						<li><a href=\"#\">Dropdown Option</a></li>\n						<li><a href=\"#\">Dropdown Option</a></li>\n						<li class=\"divider\"></li>\n						<li><label>Section Name</label></li>\n						<li><a href=\"#\">Dropdown Option</a></li>\n						<li><a href=\"#\">Dropdown Option</a></li>\n						<li><a href=\"#\">Dropdown Option</a></li>\n						<li class=\"divider\"></li>\n						<li><a href=\"#\">See all →</a></li>\n					</ul>\n				</li>\n				<li class=\"divider\"></li>\n				<li><a href=\"#\">Main Item 2</a></li>\n				<li class=\"divider\"></li>\n				<li class=\"has-dropdown\">\n					<a href=\"#\">Main Item 3</a>\n					<ul class=\"dropdown\">\n						<li><a href=\"#\">Dropdown Option</a></li>\n						<li><a href=\"#\">Dropdown Option</a></li>\n						<li><a href=\"#\">Dropdown Option</a></li>\n						<li class=\"divider\"></li>\n					</ul>\n				</li>\n			</ul>\n		</section>\n	</nav>\n \n	 \n \n \n	 \n \n	<div class=\"row\">\n \n\n\n\n<dl class=\"tabs\" data-tab>\n  <dd class=\"active\"><a href=\"#panel1\">Tab 1</a></dd>\n  <dd><a href=\"#panel2\">Tab 2</a></dd>\n  <dd><a href=\"#panel3\">Tab 3</a></dd>\n  <dd><a href=\"#panel4\">Tab 4</a></dd>\n</dl>\n<div class=\"tabs-content\">\n  <div class=\"content active\" id=\"panel1\">\n    <p>This is the first panel of the basic tab example. This is the first panel of the basic tab example.</p>\n  </div>\n  <div class=\"content\" id=\"panel2\">\n    <p>This is the second panel of the basic tab example. This is the second panel of the basic tab example.</p>\n  </div>\n  <div class=\"content\" id=\"panel3\">\n    <p>This is the third panel of the basic tab example. This is the third panel of the basic tab example.</p>\n  </div>\n  <div class=\"content\" id=\"panel4\">\n    <p>This is the fourth panel of the basic tab example. This is the fourth panel of the basic tab example.</p>\n  </div>\n</div>\n\n\n\n\n\n\n\n		<div class=\"large-9 columns\">\n \n			<h3>Get in Touch!</h3>\n			<p>We'd love to hear from you. You can either reach out to us as a whole and one of our awesome team members will get back to you, or if you have a specific question reach out to one of our staff. We love getting email all day <em>all day</em>.</p>\n \n			<div class=\"section-container tabs\" data-section>\n				<section class=\"section\">\n					<h5 class=\"title\"><a href=\"#panel1\">Contact Our Company</a></h5>\n					<div class=\"content\" data-slug=\"panel1\">\n						<form>\n							<div class=\"row collapse\">\n								<div class=\"large-2 columns\">\n									<label class=\"inline\">Your Name</label>\n								</div>\n								<div class=\"large-10 columns\">\n									<input type=\"text\" id=\"yourName\" placeholder=\"Jane Smith\">\n								</div>\n							</div>\n							<div class=\"row collapse\">\n								<div class=\"large-2 columns\">\n									<label class=\"inline\"> Your Email</label>\n								</div>\n								<div class=\"large-10 columns\">\n									<input type=\"text\" id=\"yourEmail\" placeholder=\"jane@smithco.com\">\n								</div>\n							</div>\n							<label>What's up?</label>\n							<textarea rows=\"4\"></textarea>\n							<button type=\"submit\" class=\"radius button\">Submit</button>\n						</form>\n					</div>\n				</section>\n				<section class=\"section\">\n					<h5 class=\"title\"><a href=\"#panel2\">Specific Person</a></h5>\n					<div class=\"content\" data-slug=\"panel2\">\n						<ul class=\"large-block-grid-5\">\n							<li><a href=\"mailto:mal@serenity.bc.reb\"><img src=\"http://placehold.it/200x200&text=[person]\">Mal Reynolds</a></li>\n							<li><a href=\"mailto:zoe@serenity.bc.reb\"><img src=\"http://placehold.it/200x200&text=[person]\">Zoe Washburne</a></li>\n							<li><a href=\"mailto:jayne@serenity.bc.reb\"><img src=\"http://placehold.it/200x200&text=[person]\">Jayne Cobb</a></li>\n							<li><a href=\"mailto:doc@serenity.bc.reb\"><img src=\"http://placehold.it/200x200&text=[person]\">Simon Tam</a></li>\n							<li><a href=\"mailto:killyouwithmymind@serenity.bc.reb\"><img src=\"http://placehold.it/200x200&text=[person]\">River Tam</a></li>\n							<li><a href=\"mailto:leafonthewind@serenity.bc.reb\"><img src=\"http://placehold.it/200x200&text=[person]\">Hoban Washburne</a></li>\n							<li><a href=\"mailto:book@serenity.bc.reb\"><img src=\"http://placehold.it/200x200&text=[person]\">Shepherd Book</a></li>\n							<li><a href=\"mailto:klee@serenity.bc.reb\"><img src=\"http://placehold.it/200x200&text=[person]\">Kaywinnet Lee Fry</a></li>\n							<li><a href=\"mailto:inara@guild.comp.all\"><img src=\"http://placehold.it/200x200&text=[person]\">Inarra Serra</a></li>\n						</ul>\n					</div>\n				</section>\n			</div>\n		</div>\n \n		 \n \n \n		 \n \n \n		<div class=\"large-3 columns\">\n			<h5>Map</h5>\n			 \n			<p>\n				<a href=\"\" data-reveal-id=\"mapModal\"><img src=\"http://placehold.it/400x280\"></a><br/>\n				<a href=\"\" data-reveal-id=\"mapModal\">View Map</a>\n			</p>\n			<p>\n				123 Awesome St.<br/>\n				Barsoom, MA 95155\n			</p>\n		</div>\n		 \n	</div>\n \n	 \n \n \n	 \n \n	<footer class=\"row\">\n		<div class=\"large-12 columns\">\n			<hr/>\n			<div class=\"row\">\n				<div class=\"large-6 columns\">\n					<p>© Copyright no one at all. Go to town.</p>\n				</div>\n				<div class=\"large-6 columns\">\n					<ul class=\"inline-list right\">\n						<li><a href=\"#\">Link 1</a></li>\n						<li><a href=\"#\">Link 2</a></li>\n						<li><a href=\"#\">Link 3</a></li>\n						<li><a href=\"#\">Link 4</a></li>\n					</ul>\n				</div>\n			</div>\n		</div>\n	</footer>\n \n	 \n \n \n \n	 \n \n	<div class=\"reveal-modal\" id=\"mapModal\">\n		<h4>Where We Are</h4>\n		<p><img src=\"http://placehold.it/800x600\"/></p>\n \n		 \n		<a href=\"#\" class=\"close-reveal-modal\">×</a>\n	</div>\n		\n	<script>\n  	$(document).foundation();\n	</script>\n\n	</body>\n</html>\n",
 			"file": "index.html",
-			"file_size": 6585,
-			"file_write_time": 130485415045117187,
 			"settings":
 			{
-				"buffer_size": 6587,
+				"buffer_size": 6776,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "js/foundation/foundation.offcanvas.js",
+			"file": "css/main.css",
 			"settings":
 			{
-				"buffer_size": 3434,
-				"line_ending": "Unix"
+				"buffer_size": 3474,
+				"line_ending": "Windows"
 			}
 		},
 		{
 			"file": "css/foundation.css",
 			"settings":
 			{
-				"buffer_size": 157558,
+				"buffer_size": 157559,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/C/Users/Администратор/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+			"file": "foundation-icons/foundation-icons/preview.html",
 			"settings":
 			{
-				"buffer_size": 386,
+				"buffer_size": 324210,
 				"line_ending": "Unix"
 			}
 		}
@@ -158,9 +155,25 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 392.0,
+		"height": 368.0,
 		"selected_items":
 		[
+			[
+				"foundadro",
+				"Snippet: ZURB Foundation 5 Dropdown Buttons"
+			],
+			[
+				"foundbut",
+				"Snippet: ZURB Foundation 5 Button Groups"
+			],
+			[
+				"founda",
+				"Snippet: ZURB Foundation 5 Split Buttons"
+			],
+			[
+				"snip",
+				"Snippet: ZURB Foundation 5 Orbit Slider"
+			],
 			[
 				"inst",
 				"Package Control: Install Package"
@@ -184,10 +197,6 @@
 			[
 				"snipdro",
 				"Snippet: ZURB Foundation 5 Dropdown Buttons"
-			],
-			[
-				"snip",
-				"Snippet: ZURB Foundation 5 Tabs"
 			],
 			[
 				"snipre",
@@ -238,7 +247,7 @@
 				"Snippet: ZURB Foundation 5 Buttons"
 			]
 		],
-		"width": 528.0
+		"width": 496.0
 	},
 	"console":
 	{
@@ -259,10 +268,13 @@
 	},
 	"file_history":
 	[
+		"/D/Developing/Verstka/weekend_main/foundation-icons/foundation-icons/foundation-icons.css",
+		"/D/Developing/Verstka/weekend_main/css/foundation.css",
+		"/C/Users/Администратор/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/D/Developing/Verstka/weekend_main/js/foundation/foundation.offcanvas.js",
 		"/D/Developing/Verstka/weekend_main/humans.txt",
 		"/D/Developing/Verstka/weekend_main/robots.txt",
 		"/D/Developing/Verstka/weekend_main/weekend_main.sublime-project",
-		"/D/Developing/Verstka/weekend_main/css/foundation.css",
 		"/D/Developing/Verstka/weekend_main/css/foundation.min.css",
 		"/D/Developing/Verstka/weekend_main/css/normalize.css",
 		"/D/Developing/Verstka/weekend_main/fonts/Marta_Italic.otf",
@@ -270,7 +282,6 @@
 		"/C/Users/Администратор/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
 		"/C/Program Files/Sublime Text 3/Packages/Color Scheme - Default.sublime-package",
 		"/D/Developing/Verstka/weekend_main/index.html",
-		"/C/Users/Администратор/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
 		"/C/Users/Администратор/AppData/Roaming/Sublime Text 3/Packages/User/sftp_servers/Auditoriya",
 		"/C/Users/Администратор/AppData/Roaming/Sublime Text 3/Packages/Default/Default (Windows).sublime-keymap",
 		"/C/Users/Администратор/AppData/Roaming/Sublime Text 3/Packages/russian-aot-ieyo.dic",
@@ -384,13 +395,11 @@
 		"/C/Users/Администратор/AppData/Local/Temp/239fd7cb-3cbc-4696-97af-798f186864fa/dav/template/Snippets/FashionItems.html",
 		"/C/Users/Администратор/AppData/Local/Temp/239fd7cb-3cbc-4696-97af-798f186864fa/dav/template/Panels/HomeNewProducts.html",
 		"/C/Users/Администратор/AppData/Local/Temp/239fd7cb-3cbc-4696-97af-798f186864fa/dav/template/Styles/mg.styles.css",
-		"/C/Users/Администратор/AppData/Local/Temp/239fd7cb-3cbc-4696-97af-798f186864fa/dav/template/page.html",
-		"/C/Users/Администратор/AppData/Local/Temp/239fd7cb-3cbc-4696-97af-798f186864fa/dav/template/Snippets/HomeFeaturedProductsItem.html",
-		"/C/Users/Администратор/AppData/Local/Temp/239fd7cb-3cbc-4696-97af-798f186864fa/dav/template/_page.html"
+		"/C/Users/Администратор/AppData/Local/Temp/239fd7cb-3cbc-4696-97af-798f186864fa/dav/template/page.html"
 	],
 	"find":
 	{
-		"height": 36.0
+		"height": 55.0
 	},
 	"find_in_files":
 	{
@@ -405,6 +414,11 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"divider",
+			"36",
+			"social",
+			".size-72",
+			"/>\n",
 			"'',\n",
 			"          ",
 			"color",
@@ -523,7 +537,7 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -532,15 +546,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 6587,
+						"buffer_size": 6776,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								462,
-								462
+								5752,
+								5752
 							]
 						],
 						"settings":
@@ -548,50 +562,50 @@
 							"BracketHighlighterBusy": false,
 							"bh_regions":
 							[
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
 								"bh_square",
 								"bh_square_center",
 								"bh_square_open",
 								"bh_square_close",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
 								"bh_single_quote",
 								"bh_single_quote_center",
 								"bh_single_quote_open",
 								"bh_single_quote_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
 								"bh_unmatched",
 								"bh_unmatched_center",
 								"bh_unmatched_open",
-								"bh_unmatched_close"
+								"bh_unmatched_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close"
 							],
 							"incomplete_sync": null,
 							"remote_loading": false,
@@ -601,27 +615,27 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 120.0,
+						"translation.y": 3147.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "js/foundation/foundation.offcanvas.js",
+					"file": "css/main.css",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3434,
+						"buffer_size": 3474,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								353,
-								353
+								3187,
+								3187
 							]
 						],
 						"settings":
@@ -629,80 +643,81 @@
 							"BracketHighlighterBusy": false,
 							"bh_regions":
 							[
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
 								"bh_angle",
 								"bh_angle_center",
 								"bh_angle_open",
 								"bh_angle_close",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
 								"bh_tag",
 								"bh_tag_center",
 								"bh_tag_open",
 								"bh_tag_close",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
 								"bh_unmatched",
 								"bh_unmatched_center",
 								"bh_unmatched_open",
 								"bh_unmatched_close",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close"
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close"
 							],
 							"incomplete_sync": null,
+							"open_with_edit": true,
 							"remote_loading": false,
 							"synced": false,
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 6,
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 240.0,
+						"translation.y": 1683.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
 					"buffer": 2,
 					"file": "css/foundation.css",
-					"semi_transient": true,
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 157558,
+						"buffer_size": 157559,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1912,
-								1912
+								35352,
+								35352
 							]
 						],
 						"settings":
@@ -710,22 +725,6 @@
 							"BracketHighlighterBusy": false,
 							"bh_regions":
 							[
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
 								"bh_double_quote",
 								"bh_double_quote_center",
 								"bh_double_quote_open",
@@ -738,14 +737,14 @@
 								"bh_tag_center",
 								"bh_tag_open",
 								"bh_tag_close",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
 								"bh_single_quote",
 								"bh_single_quote_center",
 								"bh_single_quote_open",
@@ -753,7 +752,23 @@
 								"bh_unmatched",
 								"bh_unmatched_center",
 								"bh_unmatched_open",
-								"bh_unmatched_close"
+								"bh_unmatched_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close"
 							],
 							"incomplete_sync": null,
 							"remote_loading": false,
@@ -763,27 +778,27 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1836.0,
+						"translation.y": 30159.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
 					"buffer": 3,
-					"file": "/C/Users/Администратор/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+					"file": "foundation-icons/foundation-icons/preview.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 386,
+						"buffer_size": 324210,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								383,
-								383
+								1190,
+								1190
 							]
 						],
 						"settings":
@@ -791,10 +806,6 @@
 							"BracketHighlighterBusy": false,
 							"bh_regions":
 							[
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
 								"bh_double_quote",
 								"bh_double_quote_center",
 								"bh_double_quote_open",
@@ -803,6 +814,14 @@
 								"bh_default_center",
 								"bh_default_open",
 								"bh_default_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
 								"bh_curly",
 								"bh_curly_center",
 								"bh_curly_open",
@@ -811,18 +830,6 @@
 								"bh_single_quote_center",
 								"bh_single_quote_open",
 								"bh_single_quote_close",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
 								"bh_unmatched",
 								"bh_unmatched_center",
 								"bh_unmatched_open",
@@ -831,6 +838,14 @@
 								"bh_angle_center",
 								"bh_angle_open",
 								"bh_angle_close",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
 								"bh_square",
 								"bh_square_center",
 								"bh_square_open",
@@ -839,14 +854,15 @@
 							"incomplete_sync": null,
 							"remote_loading": false,
 							"synced": false,
-							"syntax": "Packages/JavaScript/JSON.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1160.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 3,
 					"type": "text"
 				}
 			]
