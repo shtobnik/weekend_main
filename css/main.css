@@ -1,3 +1,299 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  list-style: none; }
+
+::-moz-selection {
+  background: #18a5d9;
+  color: white;
+  text-shadow: none; }
+
+::selection {
+  background: #18a5d9;
+  color: white;
+  text-shadow: none; }
+
+strong {
+  font-weight: bold; }
+
+@font-face {
+  font-family: 'icomoon';
+  src: url("fonts/icomoon.eot");
+  src: url("fonts/icomoon.eot?#iefix") format("embedded-opentype"), url("fonts/icomoon.svg#icomoon") format("svg"), url("fonts/icomoon.woff") format("woff"), url("fonts/icomoon.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'default';
+  src: url("fonts/tradegothiclt-bold-webfont.eot");
+  src: url("fonts/tradegothiclt-bold-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/tradegothiclt-bold-webfont.woff") format("woff"), url("fonts/tradegothiclt-bold-webfont.ttf") format("truetype"), url("fonts/tradegothiclt-bold-webfont.svg#trade_gothic_ltbold") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+* {
+  margin: 0px; }
+
+html, body {
+  width: 100%;
+  background: white;
+  font-family: "Helvetica";
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased; }
+
+html {
+  overflow-y: scroll; }
+
+.wrapper {
+  width: 100%;
+  position: relative;
+  margin-bottom: 10px; }
+
+.content_area {
+  max-width: 1024px;
+  margin: auto;
+  clear: both; }
+
+#grid {
+  width: 100%;
+  position: relative; }
+
+.box {
+  float: left;
+  background-color: #eaeaea;
+  position: relative; }
+
+.filler {
+  background-color: #eaeaea;
+  float: left;
+  position: relative; }
+
+header {
+  width: 100%;
+  position: relative;
+  background-color: #222222;
+  height: 3px;
+  top: 0px;
+  left: 0px; }
+
+.filler .content, .filler .contentB, .box .content, .box .contentB {
+  color: white;
+  font-family: "default";
+  font-size: 24px;
+  letter-spacing: -1px;
+  position: relative;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  cursor: pointer;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.4s;
+  -ms-transition: all 0.4s;
+  transition: all 0.4s; }
+  .filler .content .title, .filler .contentB .title, .box .content .title, .box .contentB .title {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    padding: 10px;
+    width: 100%;
+    height: 22%;
+    background-color: #18a5d9;
+    color: white;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -ms-transition: all 0.4s;
+    transition: all 0.4s; }
+  .filler .content:hover .title, .filler .contentB:hover .title, .box .content:hover .title, .box .contentB:hover .title {
+    height: 80%; }
+.filler .active .title, .box .active .title {
+  height: 80%; }
+
+.logo {
+  background-color: #18a5d9;
+  color: white;
+  display: table; }
+  .logo .content, .logo .contentB {
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 48px;
+    letter-spacing: 7px; }
+    .logo .content .logo, .logo .contentB .logo {
+      display: table;
+      width: 100%;
+      text-align: center;
+      background-color: none; }
+      .logo .content .logo #credits, .logo .contentB .logo #credits {
+        font-size: 11px;
+        letter-spacing: 1px; }
+        .logo .content .logo #credits a, .logo .contentB .logo #credits a {
+          color: white;
+          text-decoration: none; }
+
+#filler {
+  display: none; }
+
+.icon {
+  font-family: "icomoon";
+  margin-right: 10px; }
+
+#what, #documentation {
+  margin-top: 0px;
+  margin-bottom: 5px; }
+
+#mini_demo {
+  width: 90%;
+  max-width: 410px;
+  float: right;
+  margin-right: 5px;
+  position: relative; }
+  @media screen and (max-width: 1024px) {
+    #mini_demo {
+      max-width: 100%;
+      width: 100%; } }
+
+#mini_demoB {
+  width: 90%;
+  max-width: 410px;
+  float: right;
+  margin-right: 5px;
+  position: relative; }
+  @media screen and (max-width: 1024px) {
+    #mini_demoB {
+      max-width: 100%;
+      width: 100%; } }
+  #mini_demoB .custom_filler {
+    background: none;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    transition: all 0.2s; }
+  #mini_demoB .show {
+    background-color: #333333; }
+
+#mini_demoC {
+  width: 90%;
+  max-width: 410px;
+  float: right;
+  margin-right: 5px;
+  position: relative; }
+  @media screen and (max-width: 1024px) {
+    #mini_demoC {
+      max-width: 100%;
+      width: 100%; } }
+
+#how_area, #what_if_area {
+  padding-top: 65px; }
+
+.post_area {
+  margin: 5px;
+  background-color: #eaeaea; }
+  .post_area .headline {
+    background-color: #18a5d9; }
+    .post_area .headline h1 {
+      width: 100%;
+      font-family: "default";
+      font-size: 24px;
+      color: white;
+      padding: 5px; }
+  .post_area .copy_area {
+    padding: 5px;
+    font-family: "Helvetica";
+    font-size: 14px;
+    color: #222222;
+    line-height: 20px; }
+
+#what, #how, #what_if, #api {
+  float: left;
+  margin-left: 5px;
+  max-width: 549px; }
+  @media screen and (max-width: 1024px) {
+    #what, #how, #what_if, #api {
+      max-width: 100%;
+      width: 90%;
+      float: none; } }
+
+.contentB {
+  width: 100%; }
+
+.content {
+  width: 90%;
+  max-width: 410px;
+  text-align: justify; }
+
+h1 {
+  color: #18a5d9;
+  font-family: "default";
+  font-size: 20px; }
+
+p, .code, ul, li {
+  font-size: 12px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  color: rgba(0, 0, 0, 0.6); }
+
+a {
+  color: #18a5d9; }
+
+textarea {
+  background: none;
+  border: none;
+  outline: none;
+  -webkit-appearance: none;
+  height: auto; }
+
+.code {
+  display: block;
+  width: 100%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 5px;
+  margin-top: 25px;
+  border-radius: 5px;
+  white-space: pre; }
+
+#grid {
+	position: relative;
+}
+.filler {
+  float: left;
+}
+.box img,
+.filler img {
+	height: auto;
+	max-height: 100%;
+	max-width: 100%;
+	width: auto;
+}
+.box-img-link {
+	display: inline-block;
+  max-height: 100%;
+  max-width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* 	
 	1. Main settings
 	2. Header
@@ -52,6 +348,9 @@ a:hover, a:focus {
 }
 ul {
 	list-style: none;
+}
+figure {
+	margin: 5px;
 }
 .size-12 { font-size: 12px!important; }
 
@@ -406,8 +705,70 @@ input[type="text"]:focus, input[type="password"]:focus, input[type="date"]:focus
 
 
 /*------------------- 3. article -----------------*/
+.container {
+  background: #eee;
+}
+/* clearfix */
+.container:before,
+.container:after {
+    content: "";
+    display: table;
+}
+.container:after {
+    clear: both;
+}
+
+.item {
+  float: left;
+  margin-bottom: 10px; 
+}
+.item img {
+  max-width: 100%;
+  max-height: 100%;
+  vertical-align: bottom;
+}
+.first-item {
+  clear: both;
+}
+/* remove margin bottom on last row */
+.last-row, .last-row ~ .item {
+  margin-bottom: 0;
+}
+.size-1 {
+	width: 300px;
+}
+.size-2 {
+	width: 200px;
+}
+.size-3 {
+	width: 600px;
+}
+
+
+
+
+
+
+
+
+
+
+.content-block {
+	float: none;
+}
 .article-i {
 	margin-bottom: 35px;
+	max-width: 500px;
+	width: 300px;
+}
+.article-i.small {
+	height: 220px;
+}
+.article-i.medium {
+	height: 300px;
+}
+.article-i.large {
+	height: 500px;
 }
 .article-i:hover .article-i-content {
 	padding-bottom: 16px;
@@ -461,10 +822,26 @@ aside .article-i:hover .article-i-content {
 /* .press .article-i-content {
 	border: 1px solid #d2d5dc;
 	padding: 27px 30px 29px 33px;	
-} */
+} 
 .big-img-link {
 	display: inline-block;
 	width: 100%;
+} */
+.small .article-img {
+	display: inline-block;
+	height: 110px;
+}
+.medium .article-img {
+	height: 230px;
+}
+.large .article-img {
+	height: 400px;
+}
+.article-img img {
+	height: auto;
+	max-height: 100%;
+	max-width: 100%;
+	width: auto;
 }
 .article-title,
 .article-title a {
