@@ -2976,12 +2976,12 @@ ul.pagination {
       border-radius: 3px; }
     ul.pagination li:hover a,
     ul.pagination li a:focus {
-      background: #e6e6e6; }
+      /*background: #e6e6e6;*/ }
     ul.pagination li.unavailable a {
       cursor: default;
       color: #999999; }
     ul.pagination li.unavailable:hover a, ul.pagination li.unavailable a:focus {
-      background: transparent; }
+      /*background: transparent;*/ }
     ul.pagination li.current a {
       background: #008cba;
       color: white;

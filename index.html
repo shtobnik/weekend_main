@@ -1,5 +1,5 @@
 <!doctype html>
-<html class="no-js" lang="en">
+<html lang="en">
 	<head>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -12,7 +12,9 @@
 		<script src="js/vendor/fastclick.js"></script>
 		<script src="js/foundation.min.js"></script>
 		<script src="js/shuffle.js"></script>
-		<script src="js/mason.js"></script>
+		<!-- script src="js/mason.js"></script -->
+		<script src="js/masonry.js"></script>
+		<script src="js/jspatch.js"></script>
 		<script src="js/main.js"></script>
 	</head>
 	<body>
@@ -424,59 +426,11 @@
 		</ul>
 	</section>
 	 
-<!-- <div id="grid" class="row row-fluid">
-  <figure class="filler custom_filler" data-groups='["photography"]'>
-    <img src="img/photo/1.png" height="230" width="170" />
-    <div class="picture-item__details">
-      <figcaption class="picture-item__title">Baseball</figcaption>
-      <p class="picture-item__tags">photography</p>
-    </div>
-  </figure>
-  <figure class="filler custom_filler" data-groups='["wallpaper","3d"]'>
-    <img src="img/photo/2.png" height="226" width="300" />
-    <div class="picture-item__details">
-      <figcaption class="picture-item__title">Tennis</figcaption>
-      <p class="picture-item__tags">wallpaper, 3d</p>
-    </div>
-    <p class="picture-item__description">Some description here.</p>
-  </figure>
-  <figure class="filler custom_filler" data-groups='["wallpaper","3d"]'>
-    <img src="img/photo/3.png" height="105" width="105" />
-    <div class="picture-item__details">
-      <figcaption class="picture-item__title">iMac</figcaption>
-      <p class="picture-item__tags">wallpaper, 3d</p>
-    </div>
-  </figure>
-  <figure class="wide picture-item" data-groups='["graphics"]'>
-    <img src="img/photo/4.png" height="416" width="300" />
-    <div class="picture-item__details">
-      <figcaption class="picture-item__title">Master Chief</figcaption>
-      <p class="picture-item__tags">graphics</p>
-    </div>
-    <p class="picture-item__description">Some description here.</p>
-  </figure>
-  <figure class="big picture-item" data-groups='["graphics"]'>
-    <img src="img/photo/4.png" height="416" width="300" />
-    <div class="picture-item__details">
-      <figcaption class="picture-item__title">Master Chief</figcaption>
-      <p class="picture-item__tags">graphics</p>
-    </div>
-    <p class="picture-item__description">Some description here.</p>
-  </figure>
-</div> -->
 
 
-	<!-- <section id="mini_demoC">
-				<div class="box wide">wide</div>
-				<div class="box big">big</div>
-				<div class="box big" >big</div>
-				<div class="box wide" >wide</div>
-				<div class="box wide" >wide</div>
-			<div class="mason_clear" ></div><div class="filler custom_filler" ></div><div class="filler custom_filler" ></div><div class="filler custom_filler" ></div><div class="filler custom_filler" ></div><div class="filler custom_filler" ></div><div class="filler custom_filler"></div><div class="filler custom_filler" ></div><div class="filler custom_filler" ></div><div class="filler custom_filler" ></div><div class="filler custom_filler" ></div><div class="filler custom_filler" ></div><div class="filler custom_filler" ></div><div class="filler custom_filler" ></div><div class="filler custom_filler" ></div><div class="filler custom_filler" ></div>
-	</section> -->
 
 
-	<section id="grid" class='row'>
+	<!-- <section id="grid" class='row'>
 		<div class="box wide">
 			<a class="box-img-link" href="#">
 				<img src="img/photos/sports.png">
@@ -535,7 +489,418 @@
 			</a>
 		</div>
 		<div class="mason_clear"></div>
-	</section>
+	</section> -->
+
+
+
+
+
+
+<!-- 
+<article class="article-i small">
+	<div href="#" class="article-i-content">
+		<h4 class="article-title ubuntu-m">
+			<a href="#" title="Перейти на страницу новости">Избранные произведения античного искусства</a>
+		</h4>
+		<div class="article-preview clearfix">
+			<a href="#" title="Перейти на страницу спецпроектов">
+				<span class="article-status left ubuntu-l">	
+					Спецпроект
+				</span>
+			</a>
+			<a href="#" title="Просмотреть новости за дату">
+				<span class="article-date right ubuntu-i">11 января 2014</span>
+			</a>
+		</div>
+		<a class="text-center article-img" href="#" title="Перейти на страницу новости">
+			<img class="article-i-img" src="img/photos/more-art.png" alt="Фото новости" />
+		</a>
+		<div class="article-info text-center">
+			<a href="#" title="Поставить like">
+				<span class="article-info-i likes">
+					<i class="article-info-icon step fi-like size-21"></i>
+					<span class="count">152</span>
+				</span>
+			</a>
+			<a href="#" title="Просмотреть">
+				<span class="article-info-i views">
+					<i class="article-info-icon step fi-eye size-21"></i>
+					<span class="count">316</span>
+				</span>
+			</a>
+			<a href="#" title="Прокоментировать">
+				<span class="article-info-i comments">
+					<i class="article-info-icon step fi-comment size-21"></i>
+					<span class="count">20</span>
+				</span>
+			</a>
+		</div>
+	</div>
+</article> 
+
+
+medium
+----------------------------------
+
+<div class="article-preview clearfix">
+	<ul class="columns large-6 breadcrumbs">
+	  <li><a href="#">Лица</a></li>
+	  <li class="current"><a href="#">Интервью</a></li>
+	</ul>
+	<a class="columns large-6" href="#" title="Просмотреть новости за дату">
+		<span class="article-date right ubuntu-i">Вчера</span>
+	</a>
+</div>
+
+
+small
+---------------------------------
+
+	<h4 class="article-title ubuntu-m">
+		<a href="#" title="Перейти на страницу новости">Иерусалим с кошками и военными</a>
+	</h4>
+
+	<div class="article-preview clearfix">
+			<ul class="columns large-6 breadcrumbs">
+			  <li><a href="#">Лица</a></li>
+			  <li class="current"><a href="#">Интервью</a></li>
+			</ul>
+		<a class="columns large-6" href="#" title="Просмотреть новости за дату">
+			<span class="article-date right ubuntu-i">Вчера</span>
+		</a>
+	</div>
+
+	<a class="article-preview" href="#" title="Перейти на страницу новости">
+		<img class="article-i-img left" src="img/photos/cats.png" alt="Фото статьи" />
+		<p class="article-preview-text">Елена Языкова рассказала «Уикенду» о своих впечатлениях от поездки в Израиль</p>
+	</a>
+-->
+
+
+
+
+
+
+
+
+
+
+
+<div class="content row">
+	<div id="container">
+	  <div class="item">
+	  	<div class="medium">
+		  	<h4 class="article-title ubuntu-m">
+					<a href="#" title="Перейти на страницу новости">Дневник города: что происходит в Сочи</a>
+				</h4>
+				<div class="article-preview clearfix">
+					<ul class="columns large-6 breadcrumbs">
+					  <li><a href="#">Лица</a></li>
+					  <li class="current"><a href="#">Интервью</a></li>
+					</ul>
+					<a class="columns large-6" href="#" title="Просмотреть новости за дату">
+						<span class="article-date right ubuntu-i">Вчера</span>
+					</a>
+				</div>
+	  		<img src="img/photos/olimpic.png">
+	  	</div>
+		</div>
+	  <div class="item">
+	  	<div class="small">
+		  	<h4 class="article-title ubuntu-m">
+					<a href="#" title="Перейти на страницу новости">Интервью с Романом Сергеевым — владельцем бренда «ClearUp»</a>
+				</h4>
+				<div class="article-preview clearfix">
+						<ul class="columns large-6 breadcrumbs">
+						  <li><a href="#">Лица</a></li>
+						  <li class="current"><a href="#">Интервью</a></li>
+						</ul>
+					<a class="columns large-6" href="#" title="Просмотреть новости за дату">
+						<span class="article-date right ubuntu-i">Вчера</span>
+					</a>
+				</div>
+				<a class="article-preview" href="#" title="Перейти на страницу новости">
+					<img class="article-i-img left" src="img/photos/interview.png" alt="Фото статьи">
+					<p class="article-preview-text">Елена Языкова рассказала «Уикенду» о своих впечатлениях от поездки в Израиль</p>
+				</a>	  		
+			</div>
+	  </div>
+	  <div class="item">
+	  	<div class="medium press">
+	  		<img src="img/photos/press.png">
+			</div>
+	  </div>
+	  <div class="item">
+	  	<div class="medium">	  	
+				<h4 class="article-title ubuntu-m">
+					<a href="#" title="Перейти на страницу новости">Избранные произведения античного искусства</a>
+				</h4>
+
+				<div class="article-preview clearfix">
+						<ul class="columns large-6 breadcrumbs">
+						  <li><a href="#">Афиша</a></li>
+						  <li class="current"><a href="#">Исскуство</a></li>
+						</ul>
+					<a class="columns large-6" href="#" title="Просмотреть новости за дату">
+						<span class="article-date right ubuntu-i">Вчера</span>
+					</a>
+				</div>
+	  		<img src="img/photos/more-art.png">
+			</div>
+	  </div>
+	  <div class="item">
+	  	<div class="small">	  	
+				<h4 class="article-title ubuntu-m">
+					<a href="#" title="Перейти на страницу новости">Иерусалим с кошками и военными</a>
+				</h4>
+
+				<div class="article-preview clearfix">
+						<ul class="columns large-6 breadcrumbs">
+						  <li><a href="#">Лица</a></li>
+						  <li class="current"><a href="#">Интервью</a></li>
+						</ul>
+					<a class="columns large-6" href="#" title="Просмотреть новости за дату">
+						<span class="article-date right ubuntu-i">Вчера</span>
+					</a>
+				</div>
+
+				<a class="article-preview" href="#" title="Перейти на страницу новости">
+					<img class="article-i-img left" src="img/photos/cats.png" alt="Фото статьи" />
+					<p class="article-preview-text">Елена Языкова рассказала «Уикенду» о своих впечатлениях от поездки в Израиль</p>
+				</a>
+			</div>
+	  </div>
+	  <div class="item">
+	  	<div class="medium hot">
+		  	<h4 class="article-title ubuntu-m">
+					<a href="#" title="Перейти на страницу новости">Почему школьники берутся за оружие?</a>
+				</h4>
+				<div class="article-preview clearfix">
+					<a href="#" title="Перейти на страницу спецпроектов">
+						<span class="article-status left ubuntu-l">	
+							Спецпроект
+						</span>
+					</a>
+					<a href="#" title="Просмотреть новости за дату">
+						<span class="article-date right ubuntu-i">11 января 2014</span>
+					</a>
+				</div>
+				<a class="text-center article-img" href="#" title="Перейти на страницу новости">
+					<img class="article-i-img" src="img/photos/news.png" alt="Фото новости" />
+				</a>
+				<div class="article-info text-center">
+					<a href="#" title="Поставить like">
+						<span class="article-info-i likes">
+							<i class="article-info-icon step fi-like size-21"></i>
+							<span class="count">13</span>
+						</span>
+					</a>
+					<a href="#" title="Просмотреть">
+						<span class="article-info-i views">
+							<i class="article-info-icon step fi-eye size-21"></i>
+							<span class="count">105</span>
+						</span>
+					</a>
+					<a href="#" title="Прокоментировать">
+						<span class="article-info-i comments">
+							<i class="article-info-icon step fi-comment size-21"></i>
+							<span class="count">2</span>
+						</span>
+					</a>
+				</div>
+			</div>
+	  </div>
+	  <div class="item">
+	  	<div class="large">
+				<h4 class="article-title ubuntu-m">
+					<a href="#" title="Перейти на страницу новости">Компания Google купила Nest — производителя «умных» устройств для дома</a>
+				</h4>
+
+				<div class="article-preview clearfix">
+						<ul class="columns large-6 breadcrumbs">
+						  <li><a href="#">Лица</a></li>
+						  <li class="current"><a href="#">Интервью</a></li>
+						</ul>
+					<a class="columns large-6" href="#" title="Просмотреть новости за дату">
+						<span class="article-date right ubuntu-i">11 января 2014</span>
+					</a>
+				</div>
+	  		<img src="img/photos/nest.png">
+			</div>
+	  </div>
+	  
+	  <div class="item">
+	  	<div class="small">	  	
+				<h4 class="article-title ubuntu-m">
+					<a href="#" title="Перейти на страницу новости">Иерусалим с кошками и военными</a>
+				</h4>
+
+				<div class="article-preview clearfix">
+						<ul class="columns large-6 breadcrumbs">
+						  <li><a href="#">Лица</a></li>
+						  <li class="current"><a href="#">Интервью</a></li>
+						</ul>
+					<a class="columns large-6" href="#" title="Просмотреть новости за дату">
+						<span class="article-date right ubuntu-i">Вчера</span>
+					</a>
+				</div>
+
+				<a class="article-preview" href="#" title="Перейти на страницу новости">
+					<img class="article-i-img left" src="img/photos/cats.png" alt="Фото статьи" />
+					<p class="article-preview-text">Елена Языкова рассказала «Уикенду» о своих впечатлениях от поездки в Израиль</p>
+				</a>
+			</div>
+	  </div>
+
+	  <div class="item">
+	  	<div class="small">
+		  	<h4 class="article-title ubuntu-m">
+					<a href="#" title="Перейти на страницу новости">Фоторепортаж: Детский центр KidsWill в Киеве</a>
+				</h4>
+				<div class="article-preview clearfix">
+						<ul class="columns large-6 breadcrumbs">
+						  <li><a href="#">Город</a></li>
+						  <li class="current"><a href="#">Фоторепортаж</a></li>
+						</ul>
+					<a class="columns large-6" href="#" title="Просмотреть новости за дату">
+						<span class="article-date right ubuntu-i">Вчера</span>
+					</a>
+				</div>
+				<a class="article-preview" href="#" title="Перейти на страницу новости">
+					<img class="article-i-img left" src="img/photos/yellow-car.png" alt="Фото статьи">
+					<p class="article-preview-text">В «Чисто пивном ресторанчике» заказывать столик приходится за две недели</p>
+				</a>	  		
+			</div>
+	  </div>
+	  <div class="item">
+	  	<div class="medium">
+		  	<h4 class="article-title ubuntu-m">
+					<a href="#" title="Перейти на страницу новости">Дневник города: что происходит в Сочи</a>
+				</h4>
+				<div class="article-preview clearfix">
+					<ul class="columns large-6 breadcrumbs">
+					  <li><a href="#">Лица</a></li>
+					  <li class="current"><a href="#">Интервью</a></li>
+					</ul>
+					<a class="columns large-6" href="#" title="Просмотреть новости за дату">
+						<span class="article-date right ubuntu-i">Вчера</span>
+					</a>
+				</div>
+	  		<img src="img/photos/olimpic.png">
+	  	</div>
+		</div>
+	  <div class="item">
+	  	<div class="medium">	  	
+				<h4 class="article-title ubuntu-m">
+					<a href="#" title="Перейти на страницу новости">Избранные произведения античного искусства</a>
+				</h4>
+
+				<div class="article-preview clearfix">
+						<ul class="columns large-6 breadcrumbs">
+						  <li><a href="#">Афиша</a></li>
+						  <li class="current"><a href="#">Исскуство</a></li>
+						</ul>
+					<a class="columns large-6" href="#" title="Просмотреть новости за дату">
+						<span class="article-date right ubuntu-i">Вчера</span>
+					</a>
+				</div>
+	  		<img src="img/photos/more-art.png">
+			</div>
+	  </div>
+	  <div class="item"> 
+	  	<div class="medium gallery"> 	
+				<h4 class="article-title ubuntu-m">
+					<a href="#" title="Перейти на страницу новости">Людмила Войнова: гардероб на осень</a>
+				</h4>
+
+				<div class="article-preview clearfix">
+						<ul class="columns large-6 breadcrumbs">
+						  <li><a href="#">Лица</a></li>
+						  <li class="current"><a href="#">Мода</a></li>
+						</ul>
+					<a class="columns large-6" href="#" title="Просмотреть новости за дату">
+						<span class="article-date right ubuntu-i">10 янв 2014</span>
+					</a>
+				</div>
+	  		<img src="img/photos/fasion.png">
+			</div>
+	  </div>
+
+	  <div class="item">
+	  	<div class="small">	  	
+				<h4 class="article-title ubuntu-m">
+					<a href="#" title="Перейти на страницу новости">Итальянский ресторан La Veranda</a>
+				</h4>
+
+				<div class="article-preview clearfix">
+						<ul class="columns large-6 breadcrumbs">
+						  <li><a href="#">Еда</a></li>
+						  <li class="current"><a href="#">Новые места</a></li>
+						</ul>
+					<a class="columns large-6" href="#" title="Просмотреть новости за дату">
+						<span class="article-date right ubuntu-i">10 янв 2014</span>
+					</a>
+				</div>
+
+				<a class="article-preview" href="#" title="Перейти на страницу новости">
+					<img class="article-i-img left" src="img/photos/restourant.png" alt="Фото статьи" />
+					<p class="article-preview-text">Елена Языкова рассказала «Уикенду» о своих впечатлениях от поездки в Израиль</p>
+				</a>
+			</div>
+	  </div>
+	  <div class="item">
+	  	<div class="medium">
+				<h4 class="article-title ubuntu-m">
+					<a href="#" title="Перейти на страницу новости">Пакомат — неподвижная замена курьеру</a>
+				</h4>
+
+				<div class="article-preview clearfix">
+						<ul class="columns large-6 breadcrumbs">
+						  <li><a href="#">Маркет</a></li>
+						  <li class="current"><a href="#">Путеводитель</a></li>
+						</ul>
+					<a class="columns large-6" href="#" title="Просмотреть новости за дату">
+						<span class="article-date right ubuntu-i">10 янв 2014</span>
+					</a>
+				</div>
+	  		<img src="img/photos/blurb.png">
+			</div>
+	  </div>
+	  <div class="item">
+	  	<div class="small">
+		  	<h4 class="article-title ubuntu-m">
+					<a href="#" title="Перейти на страницу новости">Интервью с Романом Сергеевым — владельцем бренда «ClearUp»</a>
+				</h4>
+				<div class="article-preview clearfix">
+						<ul class="columns large-6 breadcrumbs">
+						  <li><a href="#">Лица</a></li>
+						  <li class="current"><a href="#">Интервью</a></li>
+						</ul>
+					<a class="columns large-6" href="#" title="Просмотреть новости за дату">
+						<span class="article-date right ubuntu-i">Вчера</span>
+					</a>
+				</div>
+				<a class="article-preview" href="#" title="Перейти на страницу новости">
+					<img class="article-i-img left" src="img/photos/interview.png" alt="Фото статьи">
+					<p class="article-preview-text">Елена Языкова рассказала «Уикенду» о своих впечатлениях от поездки в Израиль</p>
+				</a>	  		
+			</div>
+	  </div>
+	</div>
+	  <ul class="pagination ubuntu-r">
+	    <li class="arrow arrow-l unavailable"><a href="#"></a></li>
+	    <li class="current"><a href="">1</a></li>
+	    <li><a href="#">2</a></li>
+	    <li><a href="#">3</a></li>
+	    <li><a href="#">4</a></li>
+	    <li class="unavailable"><a href="#">&hellip;</a></li>
+	    <li><a href="#">12</a></li>
+	    <li><a href="#">13</a></li>
+	    <li class="arrow arrow-r"><a href="#"></a></li>
+	  </ul>
+</div>
+
+
 
 
 
@@ -911,21 +1276,58 @@
 	 
  
 	<footer class="row">
-		<div class="large-12 columns">
-			<hr/>
-			<div class="row">
-				<div class="large-6 columns">
-					<p>© Copyright no one at all. Go to town.</p>
+		<div class="large-12 columns footer-content clearfix">
+				<div class="footer-i left">
+						<a class="press" href="#" title="Перейти на страницу издания">
+							<img src="img/image-ky.png">
+						</a>
 				</div>
-				<div class="large-6 columns">
-					<ul class="inline-list right">
-						<li><a href="#">Link 1</a></li>
-						<li><a href="#">Link 2</a></li>
-						<li><a href="#">Link 3</a></li>
-						<li><a href="#">Link 4</a></li>
+				<div class="footer-i footer-social-block left">
+					<h5 class="footer-social-title ubuntu-m">Мы в соцсетях</h5>
+					<ul class="social-buttons clearfix">
+						<li class="social-buttons-i left">
+							<a href="#" class="social-buttons-link vk" title="Перейти на страницу">
+								<img src="img/icon-vk-big.png" alt='vk'>
+							</a>
+						</li>
+						<li class="social-buttons-i left">
+							<a href="#" class="social-buttons-link fb" title="Перейти на страницу">
+								<img src="img/icon-fb-big.png" alt='fb'>
+							</a>
+						</li>
+						<li class="social-buttons-i left">
+							<a href="#" class="social-buttons-link tw" title="Перейти на страницу">
+								<img src="img/icon-tw-big.png" alt='tw'>
+							</a>
+						</li>
 					</ul>
+					<p class="tape ubuntu-m">
+						Все новости УИКЭНД <br/> в вашей ленте
+					</p>
 				</div>
-			</div>
+				<div class="footer-i left">
+					<span class='footer-text ubuntu-l'>Опрос</span>
+					<h5 class='footer-text ubuntu-m'>Ждете ли вы начала Олимпийских игр в Сочи?</h5>
+					<form action="#" method='post'>
+						<p class='footer-text ubuntu-l'>							
+								<input class="css-checkbox" id="o-yes" type="radio" name="radiog_dark" value="a1">
+								<label for="o-yes" class="css-label radGroup1 radGroup2 chk">Очень жду это великое событие</label>
+						</p>	
+						<p class='footer-text ubuntu-l'>						
+								<input class="css-checkbox" id="yes" type="radio" name="radiog_dark" value="a1">
+								<label for="yes" class="css-label radGroup1 radGroup2 chk">Жду, потому что увлекаюсь спортом</label>
+						</p>
+						<p class='footer-text ubuntu-l'>						
+								<input class="css-checkbox" id="no" type="radio" name="radiog_dark" value="a1">
+								<label for="no" class="css-label radGroup1 radGroup2 chk">Не жду</label>
+						</p>
+						<p class='footer-text ubuntu-l'>							
+								<input class="css-checkbox" id="other" type="radio" name="radiog_dark" value="a1">
+								<label for="other" class="css-label radGroup1 radGroup2 chk">Другой вариант</label>
+						</p>
+						<input class="form-button ubuntu-m" type="submit" value="Ответить">
+					</form>
+				</div>
 		</div>
 	</footer>
  
@@ -945,6 +1347,27 @@
 		
 	<script>
 		$(document).foundation();
+
+
+		$(document).ready(function(){ 
+    $('#container').masonry({
+// указываем элемент-контейнер в котором расположены блоки для динамической верстки
+      itemSelector: '.item',
+// указываем класс элемента являющегося блоком в нашей сетке
+          singleMode: false,
+// true - если у вас все блоки одинаковой ширины
+      isResizable: true,
+// перестраивает блоки при изменении размеров окна
+      isAnimated: true,
+// анимируем перестроение блоков
+          animationOptions: { 
+          queue: false, 
+          duration: 500 
+      }
+// опции анимации - очередь и продолжительность анимации
+    }); 
+  });
+		$(window).trigger('resize');
 	</script>
 
 	</body>
